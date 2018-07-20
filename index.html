@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator pentru bacșis</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Cât bacșis trebuie să oferi</h1>
+        <hr>    
+        <div>
+            <label>Valoarea totală:</label>
+            <input type="text" placeholder="Introdu valoarea totală..." id="billTotal">
+        </div>
+        <div>
+            <label>Bacșis(%):</label>
+            <input type="text" value="0" id="tipInput">
+        </div>
+        <div>
+            <label>Împarte costul (număr de persoane)</label>
+            <input type="text" min="1" max="10" value="1" id="splitInput">
+        </div>
+        <hr>
+        <div>
+            <label>Noua valoare/persoană:</label><span id="newBill">0</span>
+        </div>
+        <div>
+            <label>Bacșis/persoană:</label><span id="tipPerPerson">0</span>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
