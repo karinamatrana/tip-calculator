@@ -18,5 +18,5 @@ var bill = function() {
 
 document.getElementById("billTotal").onchange = bill;
 document.getElementById("tipInput").onchange = bill;
-document.getElementById("billTotal").onchange = bill;
+document.getElementById("splitInput").onchange = bill;
 
