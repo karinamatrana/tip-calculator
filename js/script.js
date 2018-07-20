@@ -7,7 +7,7 @@ var bill = function() {
     console.log(bill, tipPercent, split);
     var tipValue = bill * (tipPercent/100);
     console.log("tip:" + tipValue);
-    var newBillEach = (parseInt(bill) + parseInt(tipValue)) / split;
+    var newBillEach = (parseFloat(bill) + parseFloat(tipValue)) / split;
     console.log("cost nou: " + newBillEach);
     var tipEach = tipValue / split;
     console.log("bacsis/persoana: " + tipEach);
